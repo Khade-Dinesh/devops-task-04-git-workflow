@@ -35,3 +35,13 @@ Git is a distributed version control system used to track changes in files and c
 - Review changes before staging.
 - Never commit passwords, tokens, or private keys.
 - Use branches to isolate new work.
+
+## Branching Strategy
+
+This project uses separate branches to organize development work.
+
+- `main`: Stable project version.
+- `dev`: Integration and development work.
+- `feature/*`: Individual changes and improvements.
+
+Feature branches should be reviewed before merging into the target branch.
