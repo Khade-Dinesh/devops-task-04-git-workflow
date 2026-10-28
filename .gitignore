@@ -1,0 +1,17 @@
+# Temporary files
+*.tmp
+*.log
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~
+*.bak
